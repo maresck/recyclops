@@ -18,3 +18,10 @@ function marks {
 
 alias ..='cd ..'
 alias ...='cd ../..'
+
+cdd () {
+  cd "$1"
+  clear
+  pwd
+  ls -a
+}
