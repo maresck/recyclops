@@ -21,9 +21,12 @@ alias ..='cdd ..'
 alias ...='cdd ../..'
 alias resetaudio="sudo kill `ps -ax | grep 'coreaudiod' | grep 'sbin' |awk '{print $1}'`"
 
+alias mou="open /Applications/Mou.app"
+
 cdd () {
   cd "$1"
   clear
   pwd
   ls -a
 }
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
