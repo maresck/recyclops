@@ -31,5 +31,5 @@ cdd () {
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 export CLICOLOR=1
-export LSCOLORS=Gxfxcxdxbxegedabagacad
+export LSCOLORS=cxfxcxdxbxegedabagacad
 export PS1="\n\[\e[30;47m\]\u @ \h  ::  \[\e[30;47;1m\]\w\[\e[30;47m\] -----------\[\e[0m\]\n\$ "
